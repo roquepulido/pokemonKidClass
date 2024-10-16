@@ -1,3 +1,3 @@
-function sum (int a, int b){
-    
+function sum ( a,  b){
+    return a + b
 }
