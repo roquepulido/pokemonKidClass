@@ -1,0 +1,38 @@
+h1 {
+    color: peru;
+}
+main h1{
+    color: purple;
+}
+.color-verde{
+    color: green;
+}
+/*
+Parrafo grande por peticion del cliente
+*/
+#parrafo{
+    font-size: 40px;
+}
+/* 
+Estilo para cuando paso el mause
+*/
+.color-verde:hover{
+    background-color: darkred;
+}
+
+a{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aqua;
+    color: brown;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration:.5s;
+}
+a:hover{
+    background-color: darkgoldenrod;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
